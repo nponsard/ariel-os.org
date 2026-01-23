@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'Ariel OS'
 theme = 'ariel-os'
 
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
 [menus]
   [[menus.main]]
     name = 'Learn'
