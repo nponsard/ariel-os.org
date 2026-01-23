@@ -1,5 +1,7 @@
 {
+  "name": "Ariel OS",
+  "background_color": "#eee",
   "icons": [
-    { "src": "/android-512.png", "type": "image/png", "sizes": "512x512" }
+    { "src": "/favicons/android-512.png", "type": "image/png", "sizes": "512x512" }
   ]
 }
