@@ -6,4 +6,6 @@ date = 2025-04-05T00:00:00Z
 
 We have a shiny logo now!
 
+<!--more-->
+
 ![Ariel OS logo](images/ariel-os-avatar.svg)
