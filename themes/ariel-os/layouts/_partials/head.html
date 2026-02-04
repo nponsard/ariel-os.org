@@ -22,5 +22,14 @@
 {{ with resources.Get "fonts/FiraSans-Italic.woff2" | fingerprint }}
   <style>@font-face {font-family:"Fira Sans";font-weight:400;font-style:italic;src:url("{{ .RelPermalink }}") format("woff2");font-display:swap;}</style>
 {{ end }}
+{{ with resources.Get "fonts/JetBrainsMono-Regular.woff2" | fingerprint }}
+  <style>@font-face {font-family:"Jetbrains Mono";font-weight:400;font-style:normal;src:url("{{ .RelPermalink }}") format("woff2");font-display:swap;}</style>
+{{ end }}
+{{ with resources.Get "fonts/JetBrainsMono-Italic.woff2" | fingerprint }}
+  <style>@font-face {font-family:"Jetbrains Mono";font-weight:400;font-style:italic;src:url("{{ .RelPermalink }}") format("woff2");font-display:swap;}</style>
+{{ end }}
+{{ with resources.Get "fonts/JetBrainsMono-Bold.woff2" | fingerprint }}
+  <style>@font-face {font-family:"Jetbrains Mono";font-weight:700;font-style:normal;src:url("{{ .RelPermalink }}") format("woff2");font-display:swap;}</style>
+{{ end }}
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}

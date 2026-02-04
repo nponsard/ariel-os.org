@@ -25,3 +25,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
     name = 'Repo'
     url = 'https://github.com/ariel-os/ariel-os'
     weight = 40
+
+[markup]
+  [markup.highlight]
+    style = "bw"

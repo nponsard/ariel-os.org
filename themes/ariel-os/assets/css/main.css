@@ -69,6 +69,7 @@ body {
 
 p {
   line-height: 1.6;
+  margin-top: 1em;
 }
 
 a {
@@ -304,6 +305,30 @@ a.button:focus-visible {
 
 .hidden {
   display: none;
+}
+
+/* code blocks */
+article .highlight pre {
+  margin: 2rem 0;
+  padding: 1.15rem 1.5rem;
+  /* JetBrains Mono typeface is available under the SIL Open Font License 1.1 license and can be used free of charge, for both commercial and non-commercial purposes. */
+  font-family: "Jetbrains Mono", "Courier New", Courier, monospace;
+  line-height: 1.1em;
+  overflow-x: scroll;
+  background-color: #f5f5f5 !important ;
+  border: 1px solid var(--accent-color);
+}
+
+code {
+  font-family: "Jetbrains Mono", "Courier New", Courier, monospace;
+  font-size: 0.875em;
+
+}
+
+article ul {
+  list-style-position: inside;
+  list-style-type: square;
+  line-height: 1.7em;
 }
 
 @media (width >= 48rem) {
